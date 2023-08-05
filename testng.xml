@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="5" preserve-order="true" name="Selenium_testng_allrue_POM">
+        <classes>
+            <class name="tests.PracticeFormTest">
+                <methods>
+                    <include name="WaitForColorTest"/>
+                    <include name="userIsRegistered"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
